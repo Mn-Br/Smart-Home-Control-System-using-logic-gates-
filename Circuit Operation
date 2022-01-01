@@ -1,0 +1,6 @@
+This circuit operates when the Door Button is 1, so it is considered as an Enable button.
+When it is 1, that means that the person is in the home. Then, the lights will be 1 (tuned on). 
+Time value 1 means day time and 0 means night time.
+Temp is a shortcut to Temperature. When it is 1 that means it is above the specific value (a certain value of the temperature that is set by the admin). When it is 0 that means it is under that value.
+If Temp is 1 so the AC will be 1 (turned on) and vice versa.
+When Time is 1 the Curtains and the Coffee Maker will be 1 (curtains are opened, coffee maker starts operating). When it is 0, neither will work.
